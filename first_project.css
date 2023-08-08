@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  height: 7vh;
+  padding: 10px;
+  color: #4d4d4d;
+  font-family: "Courgette", cursive;
+  background: #ffdecb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#home_plus {
+  margin: 15px;
+}
+
+#home_id {
+  color: #4d4d4d;
+}
+
+#plus_id {
+  margin-left: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 1px;
+  height: 50px;
+  width: 50px;
+  color: #4d4d4d;
+}
+
+.zoom:hover{
+    transform: scale(1.5);
+}
+
+
+
+#subHeader {
+  height: 7vh;
+  background: #ffbf9b;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.choose_gender_button {
+  size: 5vh;
+  border-radius: 100px;
+  padding: 7px;
+  margin: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#search_and_line_search {
+  margin-left: 600px;
+}
+
+#line_search {
+  height: 25px;
+  width: 300px;
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+#search_icon {
+  position: absolute;
+  margin-left: 267px;
+  padding: 4px;
+}
+
+#main {
+  height: fit-content;
+  background: lightgrey;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#span_h1 {
+  display: flex;
+  justify-content: center;
+}
+#h1 {
+  padding-top: 30px;
+}
+
+#cardId {
+  background: white;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 40px;
+  
+  
+}
+
+#smallDiv {
+    background: #ffdecb;
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;   
+}
+    
+
+.imgProduct {
+    border: none;
+    border-radius: 30px;
+}
+
+
+.boundry_line{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.wrapper_quantity{
+   padding-top: 20px;
+}
+
+footer{
+    background: gray;
+    height: 20vh;
+    text-align: center;
+    font-size: 25px;
+}

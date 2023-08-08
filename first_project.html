@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="first_project.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      Inventory Managmant
+      <span id="home_plus">
+        <a id="home_id" class="zoom" href="http://127.0.0.1:5500/first_project.html"><i class="fa-solid fa-house"></i></a>
+        <a id="plus_id" class="zoom" href="#"><i class="fa-solid fa-plus"></i></a>
+      </span>
+    </header>
+    <div id="subHeader">
+      <button onclick="allProducts()" class="choose_gender_button">All Products</button>
+      <button onclick="only_men()" class="choose_gender_button">Men</button>
+      <button onclick="only_womens()" class="choose_gender_button">Women</button>
+      <button onclick="only_jewelery()" class="choose_gender_button">Jewelery</button>
+      <button onclick="only_electronix()" class="choose_gender_button">Electronix</button>
+      <span id="search_and_line_search">
+        <i id="search_icon" class="fa-solid fa-magnifying-glass"></i>
+        <input id="line_search" type="text" />
+      </span>
+    </div>
+    <main id="main">
+    </main>
+
+    <footer>Technical Support</footer>
     <script src="first_project.js"></script>
-</body>
+    <script src="productPage.js"></script>
+  </body>
 </html>
-
-
-git add .
-git commit -m "creaed the html"
-git push
-
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/eli2376/first_project.git
-git push -u origin main
